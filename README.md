@@ -84,3 +84,12 @@ namespace Sample.Tests
 ```bash
 dotnet test ./Sample.Tests/Sample.Tests.csproj
 ```
+
+# （おまけ）nuget パッケージの追加
+
+パッケージのページの.NET CLI の方のコマンドを追加したいプロジェクトあるディレクトリでコピペ実行すれば OK。
+コマンドは以下の通り。
+
+```
+dotnet add <PROJECT> package [options] <PACKAGE_NAME>
+```
