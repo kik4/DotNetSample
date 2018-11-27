@@ -33,6 +33,8 @@ dotnet sln add ./Sample/Sample.csproj
 
 # クラスの作成
 
+ファイル名は`.cs`ならなんでも。
+
 ```cs
 using System;
 
@@ -58,6 +60,8 @@ dotnet add ./Sample.Tests/Sample.Tests.csproj reference ./Sample/Sample.csproj
 ```
 
 # テストクラスの作成
+
+ファイル名は`.cs`ならなんでも。
 
 ```cs
 using System;
