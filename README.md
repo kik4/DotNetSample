@@ -1,4 +1,4 @@
-dotnet コマンドでクラスライブラリとテストプロジェクトを作る
+チートシート的なメモ。
 
 # ソリューションフォルダの作成
 
@@ -13,12 +13,16 @@ cd sample
 git init
 ```
 
-```.gitignore
+.gitignore ファイルは以下
+
+```
 obj/
 bin/
 ```
 
 # ソリューションファイルの作成
+
+フォルダ名と同じ名前の`.sln`ファイルが作成される。名前を変えるなら`-n`オプション。
 
 ```bash
 dotnet new sln
@@ -50,12 +54,11 @@ namespace Sample
 }
 ```
 
-# Sample ライブラリのテストプロジェクトの作成(xUnit)
+# Sample ライブラリのテストプロジェク(xUnit)の作成と参照の追加
 
 ```bash
 dotnet new xunit -o Sample.Tests
 dotnet sln add ./Sample.Tests/Sample.Tests.csproj
-# 参照の追加
 dotnet add ./Sample.Tests/Sample.Tests.csproj reference ./Sample/Sample.csproj
 ```
 
