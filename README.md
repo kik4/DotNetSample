@@ -54,7 +54,7 @@ namespace Sample
 }
 ```
 
-# ライブラリのテストプロジェクト(xUnit)の作成と参照の追加
+# テストプロジェクト(xUnit)の作成と参照の追加
 
 ```bash
 dotnet new xunit -o Sample.Tests
