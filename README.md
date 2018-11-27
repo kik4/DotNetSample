@@ -88,6 +88,8 @@ namespace Sample.Tests
 
 # テストの実行
 
+パスは指定しなくてもよい。
+
 ```bash
 dotnet test ./Sample.Tests/Sample.Tests.csproj
 ```
