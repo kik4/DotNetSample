@@ -28,7 +28,7 @@ bin/
 dotnet new sln
 ```
 
-# Sample ライブラリプロジェクトの作成
+# ライブラリプロジェクトの作成
 
 ```bash
 dotnet new classlib -o Sample
@@ -54,7 +54,7 @@ namespace Sample
 }
 ```
 
-# Sample ライブラリのテストプロジェク(xUnit)の作成と参照の追加
+# ライブラリのテストプロジェクト(xUnit)の作成と参照の追加
 
 ```bash
 dotnet new xunit -o Sample.Tests
